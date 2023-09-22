@@ -1,0 +1,15 @@
+
+
+.home {
+    padding: 40px 20px;
+    background-color: black;
+}
+
+.home h1 {
+    color:white;
+}
+
+.home h4 {
+    color: blue;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+
+
+.about{
+    background: linear-gradient(to bottom right, black, tan);
+    border: 1px solid rgb(37, 33, 33);
+    
+}
+.about h1{
+    text-align:right;
+    font-size: smaller;
+    color: wheat;
+
+}
+.about h3{
+    margin-top: 20px;
+    color:white;
+    text-align: center;
+
+}
+.about h5{
+    font-size: smaller;
+    color:wheat;
+    text-align:end;
+}

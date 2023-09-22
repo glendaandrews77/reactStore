@@ -1,0 +1,72 @@
+Body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  background: linear-gradient(to bottom right, black, brown);
+}
+h1 {
+  font-size: xxx-large;
+  font-style: unset;
+  padding-top: 15px;
+}
+
+.App {
+  background: linear-gradient(to bottom right, black, brown);
+}
+
+.App h1 {
+  text-align: center;
+
+  font-size: xxx-large;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.App-header {
+  position: relative;
+}
+
+.header-pic {
+  width: 500%;
+  height: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+  margin: 15%;
+  padding: 40px 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.App-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.NavBar button,
+.page-content img {
+  display: block;
+  margin: 10px auto;
+}
+
+.image-container {
+  display: inline-flex;
+  width: 150px;
+  height: 325px;
+  margin: 60px;
+  overflow: hidden;
+  position: relative;
+  padding: 5%;
+}
+
+.header-pic {
+  width: 200%;
+  height: 120%;
+  object-fit: contain;
+  object-position: center center;
+}

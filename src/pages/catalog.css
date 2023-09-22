@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.catalog {
+    text-align: center; 
+    color: white;
+}
+.btn {
+    font-size: 1.5em; 
+    background-color: tan;
+    padding: 5px 30px; 
+    margin: 5px; 
+    
+}
+.catalog-description {
+    color: white;
+    font-weight: bold;
+}
+
+.catalog .btn-filter {
+    margin: 5px;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+    
+}
+ /*all button*/
+
+
+h2 {
+    margin: 100px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.catalog .catalog-description {
+    text-align: center; 
+    color: rgb(246, 237, 237);        
+    font-weight: 600%; 
+}
+/* .product-image {
+    width: 50px;  
+    height: 200px; 
+    object-fit:cover;
+}
+.sexy-heels{
+    width:auto;
+} */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
