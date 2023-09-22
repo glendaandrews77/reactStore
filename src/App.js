@@ -20,10 +20,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
+        
         <Footer />
       </BrowserRouter>
     </div>
   );
 }
-
+  //Test Change
 export default App;
