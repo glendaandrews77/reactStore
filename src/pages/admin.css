@@ -1,0 +1,29 @@
+.admin {
+    background-color: wheat;
+}
+
+.admin h1 {
+    text-align: center;
+    color: red;
+
+}
+
+.admin .forms-container{
+    display: flex;
+
+}
+
+.admin .form {
+    border: 1px solid blue;
+    padding: 15px 10px;
+    border-radius: 4px;
+}
+
+.admin .form div {
+    margin: bottom 10px;
+
+}
+
+.admin .form h3 {
+    color: brown;
+}

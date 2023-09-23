@@ -1,0 +1,23 @@
+# initialize the repo
+git initialize
+
+# set the url for the remote
+get remote add ortigin<URL>
+
+# add the files
+git add .
+
+# created a commit
+git commit -m :"MESSAGE HERE"
+
+# push 1st time
+git push -u origin master
+
+
+ -------Future Uploads
+
+
+
+ git add .
+ git vommot -m "SOMETHING"
+ git push
