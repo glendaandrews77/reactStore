@@ -1,34 +1,32 @@
 import QuantityPicker from "./quantityPicker";
-import './product.css'
+import './product.css';
+import { useEffect } from 'react';
+
 
 function Product(props) {
-    function handleQuantityChange(qty) {
-        console.log("quantity change", qty);
-    }
-    console.log(props.data.price)
+  useEffect(function () {
 
-    return (
-        <div className="product">
-            <div className="product-image-container">
-            <img src={props.data.image ? "/public images/" + props.data.image : "https://picsum.photos/200/200"} alt="Product" className="product-image" />
+    console.log('component loaded');
+  }, []);
 
-            </div>
+return(
+    <div className="product">
+        <img src={'/image/' + props.data.image} alt=""></img>
+        <h5>{props.data.title}</h5>
 
-            <h5>{props.data.title}</h5>
-            
-            <div className="prices">
-               
-                <label>Price: ${props.data.price.toFixed(2)}</label>
-            </div>
-            <div className="quantity-picker">
-            <QuantityPicker onChange={handleQuantityChange} />
 
-            </div>
-            
-            <button>Add</button>
+        <div className='prices'>
+            <label>${props.data.price}</label>
+            <label>${props.data.price}</label>
         </div>
+
+         <QuantityPicker />
+
+        <button className="btn btn-sm btn-success">Add</button>
+    </div>
+
     );
-};
+}
+
 
 export default Product;
-

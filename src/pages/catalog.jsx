@@ -8,18 +8,21 @@ function Catalog() {
     const [categories, setCategories] = useState([]);
     const [prodsDisplay, setProdsDisplay] = useState([]);
 
-    function loadCatalog() {
+    async function loadCatalog() {
         let service = new DataService();
-        let prodList = service.getCatalog();
-        setProducts(prodList);
-        setProdsDisplay(prodList);
-        
+        try {
+            let prodList = await service.getCatalog();
+            setProducts(prodList);
+            setProdsDisplay(prodList);
+            loadCategory(prodList);
+        } catch (error) {
+            console.error("Failed to load catalog:", error);
+        }
     }
 
     useEffect(() => {
         console.log("catalog loaded");
         loadCatalog();
-        loadCategory();
     }, []);
 
     function filter(category) {
@@ -27,32 +30,25 @@ function Catalog() {
         let list = products.filter(prod => prod.category === category);
         setProdsDisplay(list);
         console.log("Category to filter:", category);
-
     }
 
     function clearFilter() {
         setProdsDisplay(products);
     }
 
-    function loadCategory() {
-        // let service = new DataService();
-        let prods = prodsDisplay;
-        console.log(prods);
-        let tempCategories = ["Sexy Heels", "Boots", "Boot Heels", "Wide Calf Boots"]
-        setCategories(tempCategories);
-        //setProdsDisplay(prods);
+    function loadCategory(prods) {
+        let uniqueCategories = [...new Set(prods.map(prod => prod.category))];
+        setCategories(uniqueCategories);
     }
 
     return (
         <div className="catalog">
-        
             <br />
             <button onClick={clearFilter} className="btn btn-dark-filter">All</button>
             {categories.map(c => <button key={c} onClick={() => filter(c)} className='btn btn-sm btn-primary btn-filter'>{c}</button>)}
             <br />
             <div className='product-container'>
-
-            {prodsDisplay.map(p => <Product key={p._id} data={p} />)}
+                {prodsDisplay.map(p => <Product key={p._id} data={p} />)}
             </div>
         </div>
     );

@@ -19,5 +19,5 @@ git push -u origin master
 
 
  git add .
- git vommot -m "SOMETHING"
+ git commit -m "SOMETHING"
  git push

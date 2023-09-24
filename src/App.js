@@ -5,7 +5,7 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 import Catalog from './pages/catalog';
 import Cart from './pages/cart';
-import Cart from './pages/admin';
+import Admin from './pages/admin';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

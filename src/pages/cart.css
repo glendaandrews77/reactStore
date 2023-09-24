@@ -3,9 +3,11 @@
 }
 
 .cart h1{
-    color:red;
+    color:white;
+    text-align: center;
 }
 
 .cart h3{
-    color: blue;
+    color:rgb(184, 104, 104);
+    text-align: center;
 }
