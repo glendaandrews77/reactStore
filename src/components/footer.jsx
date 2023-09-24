@@ -1,7 +1,7 @@
 function Footer(){
     return (
         <div className="footer">
-            <p style={{color: 'white'}}>Kick'in Heels By Gigi</p>
+            <p style={{color: 'white'}}>Kick'In Heels By Gigi</p>
         </div>
     );
 }

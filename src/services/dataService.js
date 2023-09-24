@@ -34,14 +34,13 @@ const catalog = [
         "image": "sexy-black-heels.jpg",
         "_id": "5"
     },
-      {
+    {
         "title": "Buckle Wide Calf Heel Boots",
         "category": "Wide Calf Boots",
         "price": 200.00,
         "image": "buckle wide calf heel boots.jpg",
         "_id": "19"
     },
-  
     {
         "title":"Gold with Gems Heels ",
         "category": "Sexy Heels",
@@ -86,7 +85,7 @@ const catalog = [
     },
     {
         "title":"Christmas Ankle Fuzzy Boots ",
-        "category": " Boot Heels",
+        "category": "Boot Heels",
         "price": 253.50,
         "image": "red and white ankle fuzzy boots.jpg",
         "_id": "12"
@@ -147,7 +146,6 @@ const catalog = [
         "image": "leapord heels.jpg",
         "_id": "21"
     },
-
    {
         "title": "Zip Up Wide Calf Boots",
         "category": "Wide Calf Boots",
@@ -178,14 +176,14 @@ const catalog = [
     },
     {
         "title": "Gold Stilletos",
-        "category": "Heels",
+        "category": "Sexy Heels",
         "price": 288.00,
         "image": "Gold Sexy Stillettos.jpg",
         "_id": "26"
     },
     {
         "title": "6 in. Gold Design Heels",
-        "category": "Heels",
+        "category": "Sexy Heels",
         "price": 350.00,
         "image": "6 inch Gold Heels.jpg",
         "_id": "27"
