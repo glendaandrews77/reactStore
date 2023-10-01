@@ -1,10 +1,12 @@
+
 function Footer(){
     return (
         <div className="footer">
-            <p style={{color: 'white'}}>Kick'In Heels By Gigi</p>
+            <label className="text-white">👠SEXY FOOTWARE TO SATISFY YOUR CRAVING👠</label>
         </div>
     );
 }
 
 export default Footer;
 
+ 

@@ -1,6 +1,8 @@
 import "./quantityPicker.css";
 import { useState } from 'react';
 
+// for the buttons on catalog + and - sign
+
 function QuantityPicker(props) {
     const [quantity, setQuantity] = useState(1); 
 
@@ -17,7 +19,7 @@ function QuantityPicker(props) {
         props.onChange(val);
     }
 
-    return (
+    return ( 
         <div className="qt-picker"> 
             <button 
                 className="btn btn-sm btn-outline-light" 

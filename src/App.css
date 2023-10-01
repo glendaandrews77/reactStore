@@ -70,3 +70,8 @@ h2 {
   object-fit: contain;
   object-position: center center;
 }
+
+/* this is for all the pages */
+.page{
+    min-height: 93vh ;
+}

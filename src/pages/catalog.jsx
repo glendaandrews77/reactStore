@@ -42,10 +42,10 @@ function Catalog() {
     }
 
     return (
-        <div className="catalog">
+        <div className="catalog page">
             <br />
-            <button onClick={clearFilter} className="btn btn-dark-filter">All</button>
-            {categories.map(c => <button key={c} onClick={() => filter(c)} className='btn btn-sm btn-primary btn-filter'>{c}</button>)}
+            <button onClick={clearFilter} className='btn btn-sm btn-secondary btn-filter'>All</button>
+            {categories.map(c => <button key={c} onClick={() => filter(c)} className='btn btn-sm btn-secondary btn-filter'>{c}</button>)}
             <br />
             <div className='product-container'>
                 {prodsDisplay.map(p => <Product key={p._id} data={p} />)}

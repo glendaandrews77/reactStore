@@ -2,32 +2,33 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
 }
-
 .catalog {
     text-align: center; 
     color: white;
+    padding: 15px;
 }
+
 .btn {
     font-size: 1.5em; 
-    background-color: tan;
+    background-color: rgb(180, 112, 23);
     padding: 5px 30px; 
-    margin: 5px; 
-    
+    margin: 15px; 
 }
+
 .catalog-description {
     color: white;
     font-weight: bold;
+
 }
+
 
 .catalog .btn-filter {
     margin: 5px;
     font-size: medium;
-    padding: 10px;
+    padding: 20px;
+    margin-bottom: 50px;;
     text-align: center;
-    
 }
- /*all button*/
-
 
 h2 {
     margin: 100px;
@@ -37,19 +38,22 @@ h2 {
 }
 
 .catalog .catalog-description {
-    text-align: center; 
-    color: rgb(246, 237, 237);        
-    font-weight: 600%; 
+    text-align:center; 
+    color: white;
+    font-weight: 200px;
+ 
 }
-/* .product-image {
-    width: 50px;  
-    height: 200px; 
-    object-fit:cover;
-}
-.sexy-heels{
-    width:auto;
-} */
 .product-container {
     display: flex;
+    border-radius: 10%;
+    width: auto;
     flex-wrap: wrap;
 }
+.product-image {
+    width: 200px;  
+    height: 5%; 
+    object-fit: cover;
+    padding: 10px;
+  
+}
+

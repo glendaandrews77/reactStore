@@ -1,6 +1,11 @@
-.nav{
-
-
-background: linear-gradient(to bottom right, black, brown);
+nav{
+    background: linear-gradient(to bottom right, black, tan);
+    color: white !important;
 }
-
+.nav-link,
+.navbar-brand {
+    color: white !important;
+}
+.nav-item{
+    color:red;
+}

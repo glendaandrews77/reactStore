@@ -2,7 +2,7 @@ import { createContext} from 'react';
 
 /**
  * Context
- * is interface, dsicription of the data
+ * is interface, discription of the data
  * it promises data
  * does not contains implementation
  */

@@ -1,13 +1,28 @@
-.cart {
-
+.cart{
+    min-height: 90vh;
 }
 
 .cart h1{
-    color:white;
+    color: tan;
+
     text-align: center;
 }
 
 .cart h3{
-    color:rgb(184, 104, 104);
+    color:rgb(221, 209, 214);
+    text-align: center;
+}
+
+.cart .prod-list{
+    max-width:750 ;
+    color: white;
+    margin:10px;
+    padding: 1px;
+    text-align: center;
+}
+.cart data{
+    text-align: center;
+}
+.footer{
     text-align: center;
 }
