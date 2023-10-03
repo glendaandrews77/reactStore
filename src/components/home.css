@@ -2,14 +2,40 @@
 
 .home {
     padding: 40px 20px;
-    background-color: black;
+    background: linear-gradient(to bottom right, rgb(29, 27, 27), brown);
 }
 
 .home h1 {
     color:white;
+    text-align: center;
 }
+.img {
+container:unset;
 
+}
 .home h4 {
     color: blue;
     text-align: center;
 }
+.home p{
+    text-align: center;
+    color: white;
+}
+.image-container {
+    margin: 5 10px;    
+    display:flex; 
+    width: 100%;
+        
+  }
+  
+  .header-pic {
+    max-width: none;     
+    height: auto;           
+    width: 150px;
+    height: 325px;        
+  }
+  
+
+  
+  
+  

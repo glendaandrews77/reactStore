@@ -12,8 +12,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link className="navbar-brand" to="# KICK'IN UP HEELS">
-          Kick Heels
-        </Link>
+          👠KICK'IN UP HEELS        </Link>
         <button
           className="navbar-toggler"
           type="button"
