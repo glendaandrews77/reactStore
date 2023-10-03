@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import Catalog from './pages/catalog';
 import Cart from './pages/cart';
 import Admin from './pages/admin';
+import Footer from './components/footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
